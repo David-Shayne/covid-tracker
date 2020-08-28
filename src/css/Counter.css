@@ -1,0 +1,48 @@
+.counter-container {
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2em;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.card {
+    padding: 0 3.33em !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 4px !important;
+}
+
+.card p {
+    font-weight: lighter;
+}
+
+.bar {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin: 1em auto;
+}
+
+.bar {
+    opacity: 0.9;
+    transition: height 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.bar:hover {
+    opacity: 1;
+}
